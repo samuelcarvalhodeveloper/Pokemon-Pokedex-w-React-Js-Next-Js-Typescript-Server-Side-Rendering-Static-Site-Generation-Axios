@@ -115,10 +115,12 @@ const PokemonSectionStyled = styled.section`
 
       a:hover {
         background: #BFABAB;
+        border: none;
       }
 
       a:active {
         background: #AA9B9B;
+        border: none;
       }
     }
 
