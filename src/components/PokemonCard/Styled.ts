@@ -18,6 +18,7 @@ const PokemonCardStyled = styled.article`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3.2rem;
   }
 
   .article__image {
