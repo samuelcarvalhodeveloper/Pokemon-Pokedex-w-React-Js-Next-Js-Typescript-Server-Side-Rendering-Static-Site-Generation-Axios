@@ -13,6 +13,7 @@ function PokemonSection(props: PokemonSectionProps) {
 
   function handleInputChange(e: any) {
     setSearch(e.target.value);
+    setPageNumber(0);
   }
 
   function handlePageClick(event: Selected) {
