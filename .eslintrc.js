@@ -1,0 +1,42 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: [
+    "prettier",
+    "plugin:react/recommended",
+    "airbnb",
+    "next/core-web-vitals",
+  ],
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 14,
+    sourceType: "module",
+  },
+  plugins: ["react", "@typescript-eslint"],
+  rules: {
+    quotes: 0,
+    "react/jsx-filename-extension": 0,
+    "import/extensions": 0,
+    "react/jsx-no-bind": 0,
+    "react/jsx-closing-bracket-location": 0,
+    "implicit-arrow-linebreak": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/no-unescaped-entities": 0,
+    "react/destructuring-assignment": 0,
+    "@next/next/no-img-element": 0,
+    "jsx-a11y/img-redundant-alt": 0,
+    "react/no-array-index-key": 0,
+    "space-infix-ops": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "operator-linebreak": 0,
+    "consistent-return": 0,
+    "nonblock-statement-body-position": 0,
+    curly: 0,
+    "react-hooks/exhaustive-deps": 0,
+  },
+};
