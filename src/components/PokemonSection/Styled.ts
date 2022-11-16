@@ -206,6 +206,10 @@ const PokemonSectionStyled = styled.section`
     display: none;
   }
 
+  .section__active {
+    background: #E0D3D3;
+  }
+
   @media screen and (min-width: 860px) and (max-width: 1140px) {
 
     .section__list {

@@ -88,6 +88,7 @@ function PokemonSection(props: PokemonSectionProps) {
                 previousClassName="section__previous"
                 nextClassName="section__next"
                 breakClassName="section__break"
+                activeLinkClassName="section__active"
               />
             )}
           </div>
