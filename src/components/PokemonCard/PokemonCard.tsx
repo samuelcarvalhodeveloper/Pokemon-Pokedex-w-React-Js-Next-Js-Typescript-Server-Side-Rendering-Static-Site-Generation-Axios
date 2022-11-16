@@ -37,7 +37,7 @@ function PokemonCard(props: PokemonCardProps) {
           className={`article__illustration article__illustration--${pokemonData?.data.types[0].type.name}`}>
           {pokemonData ? (
             <img
-              src={pokemonData.data.sprites.front_default}
+              src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${pokemonData.data.id}.gif`}
               alt="Pokemon Image"
               className="article__image"
             />
