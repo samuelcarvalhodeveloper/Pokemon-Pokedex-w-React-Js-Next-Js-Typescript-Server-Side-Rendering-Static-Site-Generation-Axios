@@ -109,16 +109,16 @@ const PokemonSectionStyled = styled.section`
     .disabled {
       a{
         color: #170F0F;
-        background: #EAE1E1;
-      }
-
-      a:hover {
-        background: #E0D3D3;
+        background: #CEBFBF;
         border: .1rem solid #3F3434;
       }
 
+      a:hover {
+        background: #BFABAB;
+      }
+
       a:active {
-        background: #CEBFBF;
+        background: #AA9B9B;
       }
     }
 
