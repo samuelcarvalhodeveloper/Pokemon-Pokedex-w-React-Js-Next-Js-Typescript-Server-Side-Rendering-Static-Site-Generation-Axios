@@ -156,7 +156,7 @@ const PokemonSectionStyled = styled.section`
     cursor: pointer;
 
     a{
-      padding: 1rem;
+      padding: .8rem 1rem;
       border-radius: 3rem;
       font-size: 1.6rem;
       font-weight: 800;
@@ -181,7 +181,7 @@ const PokemonSectionStyled = styled.section`
     cursor: pointer;
 
     a{
-      padding: 1rem;
+      padding: .8rem 1rem;
       border-radius: 3rem;
       font-size: 1.6rem;
       font-weight: 800;
