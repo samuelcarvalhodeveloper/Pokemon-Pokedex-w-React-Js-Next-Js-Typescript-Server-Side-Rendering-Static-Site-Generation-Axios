@@ -156,6 +156,9 @@ const PokemonSectionStyled = styled.section`
     cursor: pointer;
 
     a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: .8rem 1rem;
       border-radius: 3rem;
       font-size: 1.6rem;
@@ -189,6 +192,9 @@ const PokemonSectionStyled = styled.section`
       color: #EAE1E1;
       background: #170F0F;
       border: .1rem solid #170F0F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     a:hover {
