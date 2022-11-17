@@ -82,8 +82,8 @@ function PokemonSection(props: PokemonSectionProps) {
                 onPageChange={handlePageClick}
                 pageCount={totalPage}
                 marginPagesDisplayed={0}
-                previousLabel="< prev"
-                nextLabel="next >"
+                previousLabel="<"
+                nextLabel=">"
                 className="section__pagination"
                 previousClassName="section__previous"
                 nextClassName="section__next"
