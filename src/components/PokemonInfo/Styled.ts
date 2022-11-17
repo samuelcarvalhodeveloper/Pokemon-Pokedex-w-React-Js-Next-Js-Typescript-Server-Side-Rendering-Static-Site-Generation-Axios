@@ -6,6 +6,7 @@ const PokemonInfoStyled = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 77.7rem;
 
   .main__container {
     width: 100%;
