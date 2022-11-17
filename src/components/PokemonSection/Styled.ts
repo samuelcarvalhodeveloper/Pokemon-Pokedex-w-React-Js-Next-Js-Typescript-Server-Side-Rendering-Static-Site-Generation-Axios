@@ -164,7 +164,6 @@ const PokemonSectionStyled = styled.section`
       color: #EAE1E1;
       background: #170F0F;
       border: .1rem solid #170F0F;
-      height: 2.2rem;
     }
 
     a:hover {
@@ -190,7 +189,6 @@ const PokemonSectionStyled = styled.section`
       color: #EAE1E1;
       background: #170F0F;
       border: .1rem solid #170F0F;
-      height: 2.2rem;
     }
 
     a:hover {
