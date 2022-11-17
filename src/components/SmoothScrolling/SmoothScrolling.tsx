@@ -3,7 +3,10 @@ import SmoothScrollingStyled from "./Styled";
 
 function SmoothScrolling() {
   return (
-    <SmoothScrollingStyled backgroundImage={SmoothScrollingImg} href="#" />
+    <SmoothScrollingStyled
+      backgroundImage={SmoothScrollingImg}
+      href="#"
+    />
   );
 }
 

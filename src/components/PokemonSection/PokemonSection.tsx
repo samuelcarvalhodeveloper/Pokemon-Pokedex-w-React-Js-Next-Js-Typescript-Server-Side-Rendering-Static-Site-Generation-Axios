@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import ReactPaginate from "react-paginate";
 import PokemonSectionStyled from "./Styled";
 import type { PokemonSectionProps, Selected } from "../../../types";
 import PokemonCard from "../PokemonCard/PokemonCard";
 
 function PokemonSection(props: PokemonSectionProps) {
+  const ref = useRef<HTMLHeadingElement>(null);
   const [search, setSearch] = useState<string>("");
   const [pageNumber, setPageNumber] = useState(0);
   const pokemonPerPage = 12;
@@ -18,14 +19,16 @@ function PokemonSection(props: PokemonSectionProps) {
 
   function handlePageClick(event: Selected) {
     setPageNumber(event.selected);
-    console.log("a");
+    ref.current?.scrollIntoView();
   }
 
   useEffect(() => {}, [search]);
 
   return (
     <PokemonSectionStyled>
-      <div className="section__container">
+      <div
+        className="section__container"
+        ref={ref}>
         <div className="section__content">
           <div className="section__center">
             <div className="section__announce">

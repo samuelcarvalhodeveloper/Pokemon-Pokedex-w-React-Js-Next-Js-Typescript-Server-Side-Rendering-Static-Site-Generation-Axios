@@ -1,11 +1,13 @@
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import PokemonCardStyled from "./Styled";
-import type { PokemonCardProps, PokemonData } from "../../../types";
+import PokemonCardInfoStyled from "./Styled";
+import type { PokemonCardInfoProps, PokemonData } from "../../../types";
 
-function PokemonCard(props: PokemonCardProps) {
+function PokemonCardInfo(props: PokemonCardInfoProps) {
   const [pokemonData, setPokemonData] = useState<PokemonData | null>(null);
+  const [pokemonName, setPokemonName] = useState<string | undefined | null>(
+    props.name,
+  );
 
   function numberCorrect(): string {
     if (pokemonData && pokemonData?.data?.id < 10)
@@ -23,16 +25,15 @@ function PokemonCard(props: PokemonCardProps) {
 
   useEffect(() => {
     axios
-      .get(`https://pokeapi.co/api/v2/pokemon/${props.name}/`)
-      .then((res) => setPokemonData(res));
+      .get(`https://pokeapi.co/api/v2/pokemon/${pokemonName}/`)
+      .then((res) => setPokemonData(res))
+      .catch(() => setPokemonName("mew"));
     numberCorrect();
-  }, [pokemonData]);
+  }, [pokemonData, pokemonName]);
 
   return (
-    <PokemonCardStyled>
-      <Link
-        href={`/${props.name}`}
-        className="article__link">
+    <PokemonCardInfoStyled>
+      <div className="article__link">
         <div
           className={`article__illustration article__illustration--${pokemonData?.data.types[0].type.name}`}>
           {pokemonData ? (
@@ -64,9 +65,9 @@ function PokemonCard(props: PokemonCardProps) {
             </ul>
           </div>
         </div>
-      </Link>
-    </PokemonCardStyled>
+      </div>
+    </PokemonCardInfoStyled>
   );
 }
 
-export default PokemonCard;
+export default PokemonCardInfo;

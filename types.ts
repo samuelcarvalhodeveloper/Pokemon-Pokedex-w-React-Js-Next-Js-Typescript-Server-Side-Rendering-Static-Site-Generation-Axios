@@ -37,6 +37,14 @@ export type PokemonCardProps = {
   name: string;
 }
 
+export type PokemonCardInfoProps = {
+  name: string | undefined;
+}
+
+export type PokemonInfoProps = {
+  name: string | undefined;
+}
+
 type Types = {
   type: {
     name: string;
