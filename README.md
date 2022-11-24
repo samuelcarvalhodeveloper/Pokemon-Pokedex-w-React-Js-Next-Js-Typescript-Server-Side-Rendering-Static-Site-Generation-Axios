@@ -6,7 +6,7 @@ Pokédex w React Js/ Next Js and Typescript</h1>
 ![](./src/assets/img/Pokemon.jpeg)
 
 
-<h2 align="center"><a href="https://samuelcarvalho.dev/projetos/pokemon" align="center"> 📷  Check Out: Live demo! -></a></h2>
+<h2 align="center"><a href="https://samuelcarvalho.dev/projetos/pokemon" target="_blank" align="center"> 📷  Check Out: Live demo! -></a></h2>
 
 <br/>
 
