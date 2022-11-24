@@ -1,4 +1,4 @@
-<h2 align="center"><a href="https://samuelcarvalho.dev/projetos/pokemon" align="center"> 🖥️  CHECK OUT: LIVE DEMO! -></a></h2>
+<h2 align="center"><a href="https://samuelcarvalho.dev/projetos/pokemon" align="center"> 🖥️  CHECK OUT: ONLINE SITE! -></a></h2>
 
 
 ![](./src/assets/img/Pokemon.jpeg)
