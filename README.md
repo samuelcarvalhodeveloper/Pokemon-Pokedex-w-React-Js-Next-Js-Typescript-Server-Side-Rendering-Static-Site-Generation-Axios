@@ -3,7 +3,7 @@ Pokédex w React Js/ Next Js and Typescript</h1>
 
 <br />
 
-<img src="../Pokemon-Pokedex-w-React-Js-Next-Js-Typescript-Server-Side-Rendering-Static-Site-Generation-Axios/src/assets/Pokemon.jpeg" align="center" width="100%" />
+![](./src/assets/img/Pokemon.jpeg)
 
 
 <h2 align="center"><a href="https://samuelcarvalho.dev/projetos/pokemon" align="center"> 📷  Check Out: Live demo! -></a></h2>
