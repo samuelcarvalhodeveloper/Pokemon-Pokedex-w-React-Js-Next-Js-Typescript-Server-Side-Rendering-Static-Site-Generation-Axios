@@ -1,12 +1,11 @@
-<h1 align="center">
-Pokédex w React Js/ Next Js and Typescript</h1>
+<h2 align="center"><a href="https://samuelcarvalho.dev/projetos/pokemon" align="center"> 🖥️  CHECK OUT: LIVE DEMO! -></a></h2>
 
-<br />
 
 ![](./src/assets/img/Pokemon.jpeg)
 
+<h1 align="center">
+Pokédex w React Js/ Next Js and Typescript</h1>
 
-<h2 align="center"><a href="https://samuelcarvalho.dev/projetos/pokemon" align="center"> 📷  CHECK OUT: LIVE DEMO! -></a></h2>
 
 <br/>
 
@@ -33,11 +32,11 @@ Pokédex w React Js/ Next Js and Typescript</h1>
 
 ```npm install```
 
+
 **To run correct script:**
 
 ```npm run dev```
 
-<br />
 
 **If you want to create production build:**
 
@@ -63,7 +62,31 @@ Pokédex w React Js/ Next Js and Typescript</h1>
 
 <br />
 
+<h3 id="related">♟️  Related:</h3>
+
+See more:
+
+<ul>
+  <li><a href="https://github.com/samuelcarvalhodeveloper/Google-Clone-w-React-Js-Typescript-Styled-Components-Prettier-Eslint-EditorConfig">Google Clone</a></li>
+  <li><a href="https://github.com/samuelcarvalhodeveloper/Pinterest-Clone-w-React-Js-Typescript-Styled-Components-Prettier-Eslint-EditorConfig">Pinterest Clone</a></li>
+  <li><a href="https://github.com/samuelcarvalhodeveloper/Starbucks-Clone-w-React-Js-Typescript-Context-Api-Styled-Components-Prettier-Eslint-EditorConfig">Starbucks Clone</a></li>
+  <li><a href="https://github.com/samuelcarvalhodeveloper/Facebook-Clone-w-React-Js-Typescript-Styled-Components-Prettier-Eslint-EditorConfig">Facebook Clone</a></li>
+  <li><a href="https://github.com/samuelcarvalhodeveloper/Calculator-w-React-Js-Redux-ToolKit-Typescript-Styled-Components-Prettier-Eslint-EditorConfig">Calculator w/ Redux</a></li>
+</ul>
+
+<br />
+
+<h3 id="references">📖  References:</h3>
+
+[NextJs-Typescript-Boilerplate-w-Styled-Components-and-SSR-Prettier-Eslint-Configured](https://github.com/samuelcarvalhodeveloper/NextJs-Typescript-Boilerplate-w-Styled-Components-and-SSR-Prettier-Eslint-Configured)
+
+<br />
+
 <h3 id="contact">✉️  Contact:</h3>
 
 **Email:**
 <a href="mailto:personal.samuelcarvalho@gmail.com">personal.samuelcarvalho@gmail.com</a>
+
+```Repository Link:```
+
+[https://github.com/samuelcarvalhodeveloper/Pokemon-Pokedex-w-React-Js-Next-Js-Typescript-Server-Side-Rendering-Static-Site-Generation-Axios](https://github.com/samuelcarvalhodeveloper/Pokemon-Pokedex-w-React-Js-Next-Js-Typescript-Server-Side-Rendering-Static-Site-Generation-Axios)
