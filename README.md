@@ -78,6 +78,8 @@ See more:
 
 <h3 id="references">📖  References:</h3>
 
+**Next Js BoilerPlate:**
+
 [NextJs-Typescript-Boilerplate-w-Styled-Components-and-SSR-Prettier-Eslint-Configured](https://github.com/samuelcarvalhodeveloper/NextJs-Typescript-Boilerplate-w-Styled-Components-and-SSR-Prettier-Eslint-Configured)
 
 <br />
