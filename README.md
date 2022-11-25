@@ -26,8 +26,6 @@ Pokédex w React Js/ Next Js and Typescript</h1>
 
 <p>To create this project I have used React, but as long as I stated with npm, I think you are going to have problems to use with yarn.The best tip gave to you as a beginner is use npm or migrate to yarn, if all you want is just try - use npm:<p>
 
-<br />
-
 **To install the package:**
 
 ```npm install```
