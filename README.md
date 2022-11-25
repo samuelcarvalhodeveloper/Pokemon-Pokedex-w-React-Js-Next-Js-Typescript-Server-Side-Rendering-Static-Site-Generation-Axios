@@ -57,6 +57,9 @@ Pokédex w React Js/ Next Js and Typescript</h1>
 - Server Site Rendering
 - Axios
 - React Paginate
+- Eslint
+- Prettier
+- EditorConfig
 
 <br />
 
